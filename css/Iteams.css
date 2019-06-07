@@ -1,0 +1,30 @@
+.ReactModal__Content {
+    width:946px;
+    top: 65px;
+    left: 253px;
+    height: 600px;
+}
+
+@media screen and (min-width: 99px) { 
+    .modal.modal-content {
+        max-width: 200px;
+        max-height: 80%;
+    }
+} 
+
+@media screen and (min-width: 426px) and (max-width: 99) { 
+    .modal.modal-content {
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .modal.modal-content {
+        max-width: 10%;
+        max-height: 10%;
+    }
+}
+.tab{
+    margin-left: 145px;
+}
